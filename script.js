@@ -2,7 +2,7 @@ let btnRandom = document.querySelector('.buttons');
 let result = document.querySelector('h1');
 
  
-let users = ['ชานมไต้หวัน', 'ชานมกาแฟ', 'น้ำพริกกะปิ', 'ลาบหมู', 'ผัดไท'];
+let users = ['ชานมไต้หวัน', 'ชานมกาแฟ', 'ชานม่', 'ลาบหมู', 'ผัดไท'];
 var imageUrls = ['f1.jpg','f2.jpg','f3.jpg','f4.jpg','f5.jpg'];
 
 function getRandomNumber(min, max) {
