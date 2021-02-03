@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0;
+	min-height: 100vh;
+}
+#container{
+	margin: 45px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+h1{
+	font-size: 3.5em;
+	margin:0;
+    padding:10px;
+}
+
+a {
+text-decoration: none;
+color: white;
+width: 100px;
+height: 100px;
+background: #F2385A;
+position: relative;
+top: -10px;
+padding: 16px;
+font-size: 40px;
+border-radius:5px 5px 10px 10px;
+box-shadow: 0px 15px 0px 0px #f02046, 0px 0px 20px 0px;
+transition: all 0.2s;
+}
+
+a:active {
+top: 0px;
+box-shadow: 0px 7px 0px 0px #f02046;
+}
+.button2 {
+background-color: #3498DB;
+box-shadow: 0px 15px 0px 0px #258cd1;
+}
+.button2:active {
+box-shadow: 0px 7px 0px 0px #258cd1;
+}
+
+#img-menu{
+	
+    border-radius:20px !important;
+    padding:10px 0 5px 0;
+}
