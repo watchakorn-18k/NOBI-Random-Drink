@@ -18,6 +18,7 @@
   </div>  
   <h1>สุ่มเมนูได้เลย</h1>
   <img src='main.jpg'id='img-menu'/>
+  
   <!-- Load Facebook SDK for JavaScript -->
   <div id="fb-root"></div>
   <script>
@@ -32,14 +33,17 @@
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    js.src = 'https://connect.facebook.net/th_TH/sdk/xfbml.customerchat.js';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
   <!-- Your Chat Plugin code -->
   <div class="fb-customerchat"
     attribution="setup_tool"
-    page_id="560973144360803">
+    page_id="560973144360803"
+theme_color="#c8b57c"
+logged_in_greeting="สวัสดียินดีต้อนรับคุณต้องการสั่งอะไรหรือเปล่า ? "
+logged_out_greeting="สวัสดียินดีต้อนรับคุณต้องการสั่งอะไรหรือเปล่า ? ">
   </div>
   
  
